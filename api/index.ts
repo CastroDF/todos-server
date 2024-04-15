@@ -20,7 +20,7 @@ app.use(cors());
 
 app.use(express.json());
 
-app.use("/api", todoRoutes);
+app.use("/", todoRoutes);
 
 // Handle not found route errors
 app.use((req: Request, res: Response, next: NextFunction) => {
