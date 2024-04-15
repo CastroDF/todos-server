@@ -19,3 +19,4 @@ logs/
 
 # Ignore test coverage reports
 coverage/
+.vercel
